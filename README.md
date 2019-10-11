@@ -1,6 +1,8 @@
 # `tvseries` R data package
 The tvseries package contains data from IMDb regarding TV shows ratings, genre, seasons, chapters and other information.
 
+![](https://media.giphy.com/media/fR4xRx7GVMgPmYM39J/giphy.gif)
+
 ## Installation
 
 ```
@@ -27,7 +29,7 @@ At this point, the package contains three different datasets:
 - `tvseries`. Dataset containing IMDb ratings for all series, seasons and episodes. **Be careful when loading this 
 dataset as it is pretty big and might freeze your session**.
 
-All these datasets have the same number of columns which are as follows:
+All these datasets have the same number of columns which are the following:
 
 Name           | Description
 ---------------|------------
