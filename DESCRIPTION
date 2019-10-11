@@ -1,0 +1,14 @@
+Package: tvseries
+Title: IMBDb TV series data package
+Version: 0.1.0
+Authors@R: 
+    person(given = "Mireia",
+           family = "Ramos-Rodríguez",
+           role = c("aut", "cre"),
+           email = "mireiarr9@gmail.com",
+           comment = c(ORCID = "0000-0001-8083-2445"))
+Description: The tvseries package contains data from IMDb regarding TV shows ratings, genre, seasons, chapters and other information.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
