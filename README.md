@@ -6,6 +6,9 @@ The tvseries package contains data from IMDb regarding TV shows ratings, genre, 
 ## Installation
 
 ```
+# First install R package devtools if it is not installed in your machine
+# install.packages("devtools")
+
 devtools::install_github("mireia-bioinfo/tvseries")
 ```
 
