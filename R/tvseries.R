@@ -69,3 +69,23 @@ NULL
 #'     \item \strong{average_rating}: Average rating of the episode.
 #'     \item \strong{votes}: Number of votes for that episode. }
 "tvseries_top250"
+
+#' Must watch IMDB-rated TV series
+#'
+#' A dataset containing IMDb ratings for the TV series I personally recommend
+#' you should watch! Load the dataset to discover which TV series are these!
+#'
+#' @source \url{https://datasets.imdbws.com/}
+#' @format A dataframe with 18,470 rows and 10 columns.
+#' \itemize{
+#'     \item \strong{tvseries_title}: Name of the TV series.
+#'     \item \strong{episode_title}: Name of the episode.
+#'     \item \strong{season_number}: Season number.
+#'     \item \strong{episode_number}: Episode number.
+#'     \item \strong{start_year}: Year the show started.
+#'     \item \strong{end_year}: Year the show ended.
+#'     \item \strong{runtime_min}: Length of the episode in minutes.
+#'     \item \strong{genres}: Genres of the TV series.
+#'     \item \strong{average_rating}: Average rating of the episode.
+#'     \item \strong{votes}: Number of votes for that episode. }
+"tvseries_must_watch"
