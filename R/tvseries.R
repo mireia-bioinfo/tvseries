@@ -76,7 +76,7 @@ NULL
 #' you should watch! Load the dataset to discover which TV series are these!
 #'
 #' @source \url{https://datasets.imdbws.com/}
-#' @format A dataframe with 18,470 rows and 10 columns.
+#' @format A dataframe with 356 rows and 10 columns.
 #' \itemize{
 #'     \item \strong{tvseries_title}: Name of the TV series.
 #'     \item \strong{episode_title}: Name of the episode.
