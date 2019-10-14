@@ -69,3 +69,11 @@ top250 <- top$tvseries_title[1:250]
 
 tvseries_top250 <- tvseries[tvseries$tvseries_title %in% top250,]
 usethis::use_data(tvseries_top250, overwrite=T)
+
+
+# Create personal must_watch
+load("data/tvseries.rda")
+mw <- c("Jane the Virgin", "Crazy Ex-Girlfriend",
+        "Brooklyn Nine-Nine", "The Good Place")
+tvseries_must_watch <- tvseries[tvseries$tvseries_title %in% mw,]
+usethis::use_data(tvseries_must_watch, overwrite=T)
