@@ -22,6 +22,7 @@ df <- tvseries::tvseries_top100
 ## Datasets
 At this point, the package contains three different datasets:
 
+- `tvseries_must_watch`. Dataset containing IMDb ratings for 4 TV series that I personally recommend you should watch! This TV series are: `c("Jane the Virgin", "Crazy Ex-Girlfriend", "Brooklyn Nine-Nine", "The Good Place")`.
 - `tvseries_top100`. Dataset containing IMDb ratings for the **top 100 TV series selected by their popularity** 
 (average number of votes per episode) and their average ranking.
 - `tvseries_top250`. Dataset containing IMDb ratings for the **top 250 TV series selected by their popularity** 
